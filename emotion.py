@@ -4,8 +4,8 @@ from msrest.authentication import CognitiveServicesCredentials
 import os
 
 def emotion(url):
-    KEY = 'c302e032923c41898312a5e880515493'
-    ENDPOINT = 'https://serenafacerec.cognitiveservices.azure.com/'
+    KEY = 'your key'
+    ENDPOINT = 'your endpoint'
     face_client = FaceClient(ENDPOINT, CognitiveServicesCredentials(KEY))
 
     face_url = url
